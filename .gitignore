@@ -1,0 +1,72 @@
+# Dependencies & Package Managers
+node_modules/
+**/node_modules/
+.npm
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Gradle & Android Build Outputs
+.gradle/
+**/.gradle/
+build/
+**/build/
+app/build/
+**/app/build/
+.kotlin/
+**/.kotlin/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# Expo & React Native
+.expo/
+**/.expo/
+.expo-shared/
+**/.expo-shared/
+web-build/
+
+# Android Studio / IntelliJ / IDE configs
+.idea/
+**/.idea/
+*.iml
+**/*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.vscode/
+
+# Local configuration files
+local.properties
+.env
+.env.local
+.env.*.local
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Local scripts & other project platforms
+*.ps1
+screenshots/
+Medical-Reminder-App-fixed/
+Medical-Reminder-App-master/
+MedicalReminderWeb/
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
